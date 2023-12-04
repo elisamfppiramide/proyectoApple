@@ -1,0 +1,15 @@
+.container{
+    height: 100vh;
+    background: url(images/apple1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-size: 56px;
+}
+
+h3{
+    font-size: 28px;
+}
+@media all and (min-width: )
