@@ -54,3 +54,41 @@ a{
     text-decoration: none;
     color:black;
 }
+.encabezado{
+    font-size: 96px;
+}
+.encabezado2{
+    font-size: 96px;
+}
+@media all and (min-width:1021px){
+    .encabezado{
+        font-size: 96px;
+    }
+    .encabezado2{
+        font-size: 24px;
+    }
+}
+@media all and (min-width: 1025px) and (max-width: 1200px){
+    .encabezado{
+        font-size: 64px;
+    }
+    .encabezado2{
+        font-size: 24px;
+    }
+}
+@media all and (min-width:769px) and (max-width: 1024px){
+    .encabezado{
+        font-size: 48px;
+    }
+    .encabezado2{
+        font-size: 21px;
+    }
+}
+@media all and (min-width:320px) and (max-width: 480px){
+    .encabezado{
+        font-size: 48px;
+    }
+    .encabezado2{
+        font-size: 17px;
+    }
+}
