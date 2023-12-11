@@ -14,6 +14,7 @@ nav {
     align-items: center;
     background-color: #444445;
     padding: 20px;
+    font-size: 90%;
 }
 
 a {
@@ -29,6 +30,7 @@ a {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
 }
 
