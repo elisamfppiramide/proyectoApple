@@ -50,6 +50,67 @@ a {
     width: 50%;
 
 }
+.container3{
+    display: flex;
+
+}
+.container3_fila1{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.container3_fila1_columna1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.botoncomprar{
+    background-color: #0071e3;
+    color:white;
+    border-radius: 40px;
+    border: 1px solid #0071e3;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container3_fila1_columna2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.container3_fila2{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.container3_fila2_columna1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.container3_fila2_columna2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 
 @media all and (min-width:1021px) {
     .encabezado {
